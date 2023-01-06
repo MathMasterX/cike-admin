@@ -199,4 +199,9 @@ export default {
     authColumn: 'Auth column',
     resizeParentHeightTable: 'resizeParentHeightTable',
   },
+  sales: {
+    sales: 'Sales',
+    leads: 'Leads',
+    order: 'Order',
+  },
 };

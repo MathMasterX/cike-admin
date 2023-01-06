@@ -190,4 +190,9 @@ export default {
     authColumn: '权限列',
     resizeParentHeightTable: '继承父元素高度',
   },
+  sales: {
+    sales: '销售',
+    leads: '销售线索',
+    order: '订单',
+  },
 };

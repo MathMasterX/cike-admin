@@ -73,8 +73,8 @@ export default {
     signUpFormTitle: 'Sign up',
     forgetFormTitle: 'Reset password',
 
-    signInTitle: 'Backstage management system',
-    signInDesc: 'Enter your personal details and get started!',
+    signInTitle: 'CikeEnglish management system',
+    signInDesc: 'Break the information island,integrated management',
     policy: 'I agree to the xxx Privacy Policy',
     scanSign: `scanning the code to complete the login`,
 
