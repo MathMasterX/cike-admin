@@ -15,7 +15,7 @@
         <a-button type="primary" @click="expandAll">展开全部</a-button>
         <a-button type="primary" @click="collapseAll">折叠全部</a-button>
         <a-button type="primary" @click="toggleAction">
-          {{ !displayAction ? '显示Action' : '隐藏Action' }}
+          {{ !displayAction ? '显示Actionc测试' : '隐藏Action' }}
         </a-button>
         <a-button type="primary" @click="toggleCanResize">
           {{ !canResize ? '自适应高度' : '取消自适应' }}
@@ -38,7 +38,7 @@
     EditRecordRow,
   } from '/@/components/Table';
   import { optionsListApi } from '/@/api/demo/select';
-  import { getBasicColumns, getTreeTableData } from '/@/views/demo/table/tableData';
+  import { getTreeTableData } from '/@/views/demo/table/tableData';
   import { demoListApi } from '/@/api/demo/table';
   import { treeOptionsListApi } from '/@/api/demo/tree';
   import { cloneDeep } from 'lodash-es';
@@ -259,18 +259,6 @@
         isTreeTable: true,
         dataSource: getTreeTableData(),
         rowKey: 'id',
-        // columns: getBasicColumns(),
-        // rowSelection: {
-        //   type: 'checkbox',
-        //   getCheckboxProps(record: Recordable) {
-        //     // Demo: 第一行（id为0）的选择框禁用
-        //     if (record.id === '0') {
-        //       return { disabled: true };
-        //     } else {
-        //       return { disabled: false };
-        //     }
-        //   },
-        // },
       });
 
       function toggleCanResize() {
