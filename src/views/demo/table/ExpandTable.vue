@@ -51,7 +51,7 @@
         columns: getBasicColumns(),
         rowKey: 'id',
         canResize: false,
-        expandRowByClick: true,
+        expandRowByClick: false,
         actionColumn: {
           width: 160,
           title: 'Action',
